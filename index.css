@@ -1,0 +1,31 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+     background-image: url(../images/bureau.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ #corps{
+     background-color: green;
+     text-align: center;
+ }
+ ul{
+     color: white;
+     display: inline-flex;
+     list-style: none;
+ }
+ li{
+     width: 60px;
+     margin:15px ;
+     padding: 15px;
+ }
+ a{
+     text-decoration: none;
+     color: yellow;
+ }
+ li:hover{
+     background: red;
+     border-radius: 3px;
+ }
